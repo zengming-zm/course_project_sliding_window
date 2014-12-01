@@ -8,3 +8,14 @@ DELIMITER = ' '
 OUTPUT_DELIMITER = ','
 FREQUENCY_VALUE_BINS = 10 #for value discretization
 CENTER_FILE = 'centers.pkl.temp'
+
+HUYUN_OUTPUT_DELIMITER = ' '
+HUYUN_NUM_CLUSTERS = 200
+HUYUN_CENTER_FILE = 'huyun_centers.pkl.temp'
+#Join 3 original samples into 1.
+HUYUN_JOIN_VALUE = 3
+
+PART2_WINDOW = 40
+PART2_DELIMITER = ','
+PART2_SHIFT = 0.5
+
